@@ -5,7 +5,12 @@ It helps you to get winners of your promotion Instagram post.
 
 The script uses [Instabot](https://github.com/instagrambot/instabot) as interface to Instagram API.
 
-If everything is fine, you'll see a list with promotion winners.
+If everything is fine, you'll see a list with promotion winners:
+```bash
+['user1',
+ 'user2',
+ 'user3']
+```
 
 ### How to install
 Python3 should be already installed.
