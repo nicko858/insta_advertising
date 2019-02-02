@@ -34,6 +34,8 @@ def is_user_exist(mentioned_friends):
 
 
 def is_friend_mentioned(comment):
+    # Regex for Instagram Username by Jonathan Stassen:
+    # https://blog.jstassen.com/2016/03/code-regex-for-instagram-username-and-hashtags/
     pattern = ("(?:@)([A-Za-z0-9_]"
                "(?:(?:[A-Za-z0-9_]|"
                "(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)")
